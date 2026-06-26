@@ -22,6 +22,6 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync src/ s3://akashkumar-portfolio \
+          aws s3 sync src/ s3://akashkumarportfolio \
             --delete \
             --cache-control max-age=86400
